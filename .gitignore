@@ -1,0 +1,10 @@
+# User requested
+tasks/todo.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary scripts and output artifacts
+_*.py
+_*.txt
