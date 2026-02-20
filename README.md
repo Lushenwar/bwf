@@ -24,28 +24,38 @@ App Framework: Streamlit
 Data Manipulation: Pandas, NumPy
 
 ### 📂 Project Structure
-Plaintext
-├── data/               # Raw and processed BWF CSVs
-├── models/             # Trained .pkl models and scalers
+```
+├── data/                # Raw and processed BWF CSVs
+├── models/              # Trained .pkl models and scalers
 ├── src/
-│   ├── app.py          # Streamlit UI code
-│   ├── train.py        # ML training pipeline
-│   ├── predict.py      # Inference & Tournament simulation
-│   └── utils/          # Glicko-2 and cleaning helpers
-├── tasks/              # todo.md and project tracking
-└── requirements.txt    # Production dependencies
+│   ├── app.py           # Streamlit UI code
+│   ├── train.py         # ML training pipeline
+│   ├── predict.py       # Inference & Tournament simulation
+│   └── utils/           # Glicko-2 and cleaning helpers
+├── tasks/               # todo.md and project tracking
+└── requirements.txt     # Production dependencies
+```
 ### 🚦 Getting Started
-1. Prerequisites
-Ensure you have Python 3.9+ installed.
+1. Prerequisites:
+   
+  Ensure you have Python 3.9+ installed.
 
 2. Installation
-Bash
+   
+  Bash
+```
 git clone https://github.com/Lushenwar/bwf.git
 cd bwf
 pip install -r requirements.txt
+```
 3. Run the Dashboard
-Bash
+   
+  Bash
+```
 streamlit run src/app.py
+```
+
+Note: Included sample datasets in bwf/data
 ### 📊 Results & Performance
 Current Accuracy: 75.2% on 2021 BWF Validation Set.
 
