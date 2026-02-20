@@ -1,0 +1,83 @@
+{
+  "accuracy": 0.7093378607809847,
+  "log_loss": 0.5655804337108289,
+  "feature_columns": [
+    "elo_team_one",
+    "elo_team_two",
+    "elo_diff",
+    "elo_spread_team_one",
+    "elo_spread_team_two",
+    "win_rate_team_one",
+    "win_rate_team_two",
+    "h2h_win_rate",
+    "matches_played_team_one",
+    "matches_played_team_two",
+    "recent_form_team_one",
+    "recent_form_team_two",
+    "avg_point_streak_team_one",
+    "avg_point_streak_team_two",
+    "round_encoded",
+    "disc_MD",
+    "disc_MS",
+    "disc_WD",
+    "disc_WS",
+    "disc_XD",
+    "tourney_BWF Tour Super 100",
+    "tourney_HSBC BWF World Tour Finals",
+    "tourney_HSBC BWF World Tour Super 1000",
+    "tourney_HSBC BWF World Tour Super 300",
+    "tourney_HSBC BWF World Tour Super 500",
+    "tourney_HSBC BWF World Tour Super 750"
+  ],
+  "feature_importances": {
+    "elo_diff": 0.10701387375593185,
+    "matches_played_team_two": 0.048334985971450806,
+    "matches_played_team_one": 0.04561634361743927,
+    "tourney_HSBC BWF World Tour Super 1000": 0.04387407749891281,
+    "elo_team_one": 0.041638411581516266,
+    "avg_point_streak_team_one": 0.04103633761405945,
+    "avg_point_streak_team_two": 0.040082789957523346,
+    "elo_team_two": 0.03884277865290642,
+    "win_rate_team_one": 0.03781086206436157,
+    "disc_WS": 0.03772132098674774,
+    "disc_WD": 0.03771726042032242,
+    "tourney_HSBC BWF World Tour Super 500": 0.036607250571250916,
+    "win_rate_team_two": 0.036546677350997925,
+    "recent_form_team_two": 0.036411721259355545,
+    "disc_MD": 0.03626442328095436,
+    "recent_form_team_one": 0.03611078858375549,
+    "disc_MS": 0.036099307239055634,
+    "elo_spread_team_one": 0.03575883433222771,
+    "disc_XD": 0.035634953528642654,
+    "tourney_BWF Tour Super 100": 0.03546321019530296,
+    "tourney_HSBC BWF World Tour Super 750": 0.03494846448302269,
+    "h2h_win_rate": 0.03420461341738701,
+    "round_encoded": 0.033569853752851486,
+    "tourney_HSBC BWF World Tour Super 300": 0.033537525683641434,
+    "tourney_HSBC BWF World Tour Finals": 0.01915326900780201,
+    "elo_spread_team_two": 0.0
+  },
+  "train_size": 11779,
+  "val_size": 2945,
+  "xgb_params": {
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "n_estimators": 300,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 5,
+    "verbosity": 1
+  },
+  "confusion_matrix": [
+    [
+      1036,
+      401
+    ],
+    [
+      455,
+      1053
+    ]
+  ]
+}
