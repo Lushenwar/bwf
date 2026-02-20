@@ -40,8 +40,8 @@ Ensure you have Python 3.9+ installed.
 
 2. Installation
 Bash
-git clone https://github.com/yourusername/badminton-predictor.git
-cd badminton-predictor
+git clone https://github.com/Lushenwar/bwf.git
+cd bwf
 pip install -r requirements.txt
 3. Run the Dashboard
 Bash
