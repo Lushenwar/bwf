@@ -1,6 +1,10 @@
 ## Introducing BWF 
 An end-to-end Machine Learning pipeline that predicts BWF World Tour match outcomes with 75% accuracy (targeting 80%+). This project utilizes historical point-by-point data, individual Glicko-2 skill tracking, and gradient-boosted ensembles to forecast the next generation of badminton legends.
 
+I used the dataset of badminton matches across 88 different BWF World Tour competition from 2018 to 2021 that I got from kaggle dataset down below.
+
+Data Source : https://www.kaggle.com/sanderp/badminton-bwf-world-tour
+
 ### 🚀 Key Features
 Glicko-2 Rating System: Advanced skill tracking that accounts for rating uncertainty (RD) and player volatility.
 
